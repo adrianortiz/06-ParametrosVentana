@@ -69,7 +69,7 @@ public class VentanaCirculo extends JFrame implements ActionListener {
 		
 		if (e.getSource() == btnCalcular) {
 			
-			double result = p.circulo(Integer.parseInt(txtDiametro.getText()));
+			double result = p.areaCirculo(Integer.parseInt(txtDiametro.getText()));
 			lbResult.setText(String.format("%f", result));
 		
 		}

@@ -67,7 +67,7 @@ public class VentanaRectangulo extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		
 		if(e.getSource()==btncalcular){
-			int result = p.rectangulo(Integer.parseInt(txtlado1.getText()),Integer.parseInt(txtlado2.getText()));
+			int result = p.areaRectangulo(Integer.parseInt(txtlado1.getText()),Integer.parseInt(txtlado2.getText()));
 			lbResult.setText(String.format("%d", result));
 		}
 		

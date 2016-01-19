@@ -59,7 +59,7 @@ public class VentanaCuadrado extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() == btnCalcular){
-			int result = p.cuadrado(Integer.parseInt(txtLado.getText()));
+			int result = p.areaCuadrado(Integer.parseInt(txtLado.getText()));
 			lbResult.setText(String.format("%d", result));
 		}
 	}

@@ -11,7 +11,7 @@ public class Parametros {
 	 * @param l l de tipo Int
 	 * @return retorna l sumado cuatro veces como tipo Int
 	 */
-	public int cuadrado(int l) {
+	public int areaCuadrado(int l) {
 		return l + l + l + l;
 	}
 	
@@ -22,7 +22,7 @@ public class Parametros {
 	 * @param l2 tipo Int
 	 * @return int
 	 */
-	public int rectangulo(int l1, int l2) {
+	public int areaRectangulo(int l1, int l2) {
 		return l1 + l1 + l2 + l2;
 	}
 	
@@ -34,7 +34,7 @@ public class Parametros {
 	 * @param l3 tipo Int
 	 * @return int
 	 */
-	public int triangulo(int l1, int l2, int l3) {
+	public int areaTriangulo(int l1, int l2, int l3) {
 		return l1 + l2 + l3;
 	}
 	
@@ -44,7 +44,7 @@ public class Parametros {
 	 * @param diametro en Int
 	 * @return El diametro por PI
 	 */
-	public double circulo(int diametro) {
+	public double areaCirculo(int diametro) {
 		return diametro * Math.PI;
 	}
 }

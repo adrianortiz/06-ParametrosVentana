@@ -73,8 +73,10 @@ public class VentanaTriangulo extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		
 		if(e.getSource()==btncalcular){
-			int result = p.triangulo
-					(Integer.parseInt(txtlado1.getText()),Integer.parseInt(txtlado2.getText()),Integer.parseInt(txtlado3.getText()));
+			int result = p.areaTriangulo(
+					Integer.parseInt(txtlado1.getText()),
+					Integer.parseInt(txtlado2.getText()),
+					Integer.parseInt(txtlado3.getText()));
 			lbResult.setText(String.format("%d", result));
 		}
 		
